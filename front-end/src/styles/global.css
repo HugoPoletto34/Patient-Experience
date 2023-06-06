@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+text,
+textarea,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: "Roboto";
+  color: #1c1b1f;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 24px;
+}
+
+p {
+  font-weight: 400;
+  font-size: 16px;
+}
+.grid-two-cols {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 30px;
+}
+
+.MuiFormControl-root {
+  background-color: white !important;
+}
